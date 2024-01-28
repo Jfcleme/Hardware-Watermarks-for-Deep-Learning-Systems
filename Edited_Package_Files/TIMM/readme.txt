@@ -1,0 +1,1 @@
+This folder contains modifications to TIMM scripts we needed to get models downloading correctly in some machines. Upon first download on these machines it may be necissary to modify the models state_dict. Please see the TAKE NOTE block in helper.py if problems occur.

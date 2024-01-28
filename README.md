@@ -1,8 +1,9 @@
 ## Introduction
 DeepHardMark is the first watermarking framework targeted at protecting deep 
 learning hardware accelerators from piracy. DeepHardMark was orignally published in the work 
-[DeepHardMark: Towards Watermarking Neural Network Hardware](https://ojs.aaai.org/index.php/AAAI/article/view/20367) This repository contains python 
-scripts for running the DeepHardMark algorithm.  
+[DeepHardMark: Towards Watermarking Neural Network Hardware](https://ojs.aaai.org/index.php/AAAI/article/view/20367) 
+
+The work in this repository extends upon this work with a novel algorithm for improving the efficiency ans effectiveness of watermarks embedded into deep learning hardware. A detailed description of this algorithm can be found in the work, `Reliable Hardware Watermarks for Deep Learning Systems`, to be published in TVLIS 2024. 
 
 ## Usage
 
@@ -54,19 +55,5 @@ An example of the use of this framework is provided in `Example.py`.
 
 
 ## Cite 
-If this repository has been helpful in your work please cite the work. You may use the following bibtex entry modified from [dblp](https://dblp.org/db/conf/dbpl/index.html).
-
-```
-@inproceedings{Clements2022DeepHardMark,
-  author    = {Joseph Clements and
-               Yingjie Lao},
-  title     = {{DeepHardMark}: Towards Watermarking Neural Network Hardware},
-  booktitle = {Proceedings of the {AAAI} Conference on Artificial Intelligence},
-  pages     = {4450--4458},
-  publisher = {{AAAI} Press},
-  year      = {2022},
-  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/20367},
-  biburl    = {https://dblp.org/rec/conf/aaai/ClementsL22.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
+The work contained in this repo has been accepted for publication in TVSLI 2024 under the title `Reliable Hardware Watermarks for Deep Learning
+Systems`. 
